@@ -1,1 +1,1 @@
-# This folder will have class-notes from Linux Workshops.
+ This folder will have class-notes from Linux Workshops.
