@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#we are checking if user put exactly one parameter
+if [[ $# -ne 1 ]]
+then
+        echo "Usage is $0 <number>"
+        exit 1
+fi
+
+number=$1
+$
+if [[  $number -gt 10 ]]
+then
+        echo "Number is bigger than 10"
+
+        if (( $number % 2 == 1 ))
+        then
+                echo "And is an odd  number"
+        else
+                echo "And is an even number"
+        fi
+else
+        echo "It is not bigger than 10"
+fi
