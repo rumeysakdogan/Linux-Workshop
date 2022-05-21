@@ -1,0 +1,6 @@
+
+hostname=YOUR_HOSTNAME
+ip=YOUR_IP
+
+config1=xyz
+config2=abcf
