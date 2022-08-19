@@ -1,0 +1,1 @@
+sudo find / -maxdepth 4 -size +1M -type f -exec ls -lh {} \; | sort -k 5hr > filesizes.txt

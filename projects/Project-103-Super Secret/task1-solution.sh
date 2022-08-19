@@ -1,0 +1,1 @@
+mkdir super_secret_stuff && cd super_secret_stuff && echo "This file is super secret" > top_secret.txt
